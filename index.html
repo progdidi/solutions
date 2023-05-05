@@ -4,7 +4,10 @@
 	<meta charset="UTF-8">
 	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
 	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
-    <link rel="stylesheet" href="css/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Raleway:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
 
@@ -29,9 +32,48 @@
             <div class="container">
                 <div class="header__top">
                     <a href="#" class="logo"><img src="img/logo-main.svg" alt="logo" class="logo__img"></a>
+
+                    <div class="header__buttons">
+                        <button class="header__btn">Регистрация</button>
+                        <button class="header__btn">Вход</button>
+                    </div>
                 </div>
+
+                <div class="promo">
+                    <div class="promo__content">
+                        <h1 class="promo__title">Первая интеллектуальная платформа для подготовки к тестам <span>Talent Q</span> </h1>
+                        <p class="promo__descr">от эксперта Антона Добрышина</p>
+                        <div class="promo__buttons">
+                            <div class="promo__btn">
+                                <a href="#" class="promo__btn-link">Начать сейчас</a>
+                                <p class="promo__btn-text">Время - деньги</p>
+                            </div>
+                            <div class="promo__btn">
+                                <a href="#" class="promo__btn-link">Подробнее</a>
+                                <p class="promo__btn-text">Формула успеха</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="promo__media">
+                        <img src="img/promo.png" alt="promo" class="promo__media-img">
+                    </div>
+                </div>
+
             </div>
         </header>
+
+        <section class="steps">
+            <div class="container">
+                <h2 class="steps__title"> <span>Talent Q:</span> 6 шагов к успеху</h2>
+                <div class="steps__item"></div>
+                <div class="steps__item"></div>
+                <div class="steps__item"></div>
+                <div class="steps__item"></div>
+                <div class="steps__item"></div>
+                <div class="steps__item"></div>
+            </div>
+        </section>
     </div>
 
 </body>
